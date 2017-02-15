@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Barcode1D</servlet-name>
+    <servlet-class>servlet.Barcode1D</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConnectWiFi</servlet-name>
+    <servlet-class>servlet.ConnectWiFi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CutWiFi</servlet-name>
+    <servlet-class>servlet.CutWiFi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckWiFi</servlet-name>
+    <servlet-class>servlet.CheckWiFi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PushFile</servlet-name>
+    <servlet-class>servlet.PushFile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileIO</servlet-name>
+    <servlet-class>servlet.FileIO</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Barcode1D</servlet-name>
+    <url-pattern>/servlet/Barcode1D</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConnectWiFi</servlet-name>
+    <url-pattern>/servlet/ConnectWiFi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CutWiFi</servlet-name>
+    <url-pattern>/servlet/CutWiFi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckWiFi</servlet-name>
+    <url-pattern>/servlet/CheckWiFi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PushFile</servlet-name>
+    <url-pattern>/servlet/PushFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileIO</servlet-name>
+    <url-pattern>/servlet/FileIO</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
